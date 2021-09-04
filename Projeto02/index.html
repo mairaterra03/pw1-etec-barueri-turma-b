@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 
+
 <!-- 
     TAG -> A TAG É A FORMA DA HTML MARCAR SUAS ESTRUTURAS
     UMA TAG PODE OU NÃO ABRIR E FECHAR
@@ -30,12 +31,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- DEFINE O USO DA AREA UTIL DE TELA -->
     <title>AS TECNOLOGIAS DO FRON-END</title><!-- DEFINE O TITULO DA PÁGINA (O QUE APARECE NA ABA DO NAVEGADOR) -->
+
+<!-- LINKS PARA OS ARQUIVOS CSS -->
+<!-- LINK PARA O ARQUIVO CSS normalize.css -->
+<link rel="stylesheet" href="css/normalize.css">
+<!-- LINK PARA O ARQUIVO CSS estilo.css -->
+<link rel="stylesheet" href="css/estilo.css">
+
 </head>
 <body><!-- DELIMITA A AREA QUE REPRESENTA O CONTEUDO DA PAGINA -->
+    
+    <div class="container">
 
-    <h1>AS TECNOLOGIAS DO FRONT-END</h1>
+    <h1 class="titulo">AS TECNOLOGIAS DO FRONT-END</h1>
 
     <!-- BLOCO DO HTML -->
+    <div class="bloco">
     <h2>HTML</h2>
 
     <img src="img/html.png" alt="Logo da HTML" title="Logo da HTML">
@@ -52,8 +63,12 @@
 
     </p>
 
+    <div class="clear"></div>
+
+</div>
 
     <!-- BLOCO DO CSS -->
+    <div class="bloco">
     <h2>CSS</h2>
     
     <img src="img/css.png" alt="Logo da CSS" title="Logo da CSS">
@@ -70,7 +85,12 @@
 
 </p>
 
+<div class="clear"></div>
+
+</div> 
+
 <!-- BLOCO DO JAVASCRIPT -->
+<div class="bloco">
     <h2>JAVASCRIPT</h2>
 
     <img src="img/js.png" alt="Logo da JS" title="Logo da JS">
@@ -86,6 +106,11 @@
     Você pode encontrar mais informações sobre JavaScript na <a target="_blank" href=https://developer.mozilla.org/pt-BR/docs/Web/JavaScript>MDN Web Docs - JavaScript</a>
 
 </p>
+
+<div class="clear"></div>
+
+</div>
+</div>
 
 </body>
 </html>

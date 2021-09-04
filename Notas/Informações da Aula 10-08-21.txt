@@ -1,0 +1,22 @@
+pw1-etec-barueri-turma-b
+
+
+git init
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/mairaterra03/pw1-etec-barueri-turma-b.git
+git push -u origin main
+
+
+C:\Users\maira\OneDrive\Documentos\DS ETEC
+
+
+git commit -m "Conceitos básicos da HTML."
+git push origin master
+
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML
+https://developer.mozilla.org/pt-BR/docs/Web/CSS
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript

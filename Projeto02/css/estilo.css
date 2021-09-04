@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-Bold.ttf");
+    font-size: 1em;
+} 
+
+body{
+
+    font-family: Georama;
+    /* font-family: OpenSans; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    line-height: 1.6;
+
+}
+
+html{
+    background: url(../img/fundo_med.jpg);
+    background-size: cover;
+}
+
+.titulo{
+    background-color: #fff;
+    padding: 10px;
+}
+
+.container{ 
+    margin: 0 auto;
+    width: 960px;
+}
+
+.bloco{
+    background-color: #fff;
+    border-color: #CCC #999 #CCC #999;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.bloco img{
+    border: 1px solid #999;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+
+.bloco a{
+    color: #3471EB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bloco a:hover{
+    color: #34b4eb;
+    text-decoration: underline;
+    background-color:papayawhip;
+    padding: 5px;
+}
+
+.bloco p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.clear{
+    clear: both; 
+}
