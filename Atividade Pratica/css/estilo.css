@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+
+ body{
+    font-family: Georama;
+    line-height: 1.6;
+    color: black
+}
+
+html{
+    background: url(../imagens/fundo_grande_ed.png);
+    background-size: cover;
+}
+
+.titulo{
+    background-color: rgba(219, 135, 135, 0.616);
+    padding: 10px;
+    text-align: center
+}
+
+.container{ 
+    margin: 0 auto;
+    width: 960px;
+}
+
+.bloco{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #CCC #999 #CCC #999;
+    border: 1px dashed black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.bloco img{
+    border: 1px solid rgb(214, 166, 166);
+    float: none;
+    margin: 10px 30px 10px 30px;
+    padding: 2px;
+}
+
+.bloco a{
+    color: #000000;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.bloco a:hover{
+    color: #2c2c2c;
+    text-decoration: underline;
+    background-color:rgba(219, 135, 135, 0.658);
+    padding: 5px;
+}
+
+.bloco p{
+    font-family: Georama;
+    font-size: 16px;
+    text-decoration: black;
+    font-weight: 900;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.clear{
+    clear: both; 
+}
